@@ -18,8 +18,6 @@ CSS3 – Responsive design, animations & transitions
 JavaScript (ES6) – Dynamic functionality
 Slick Carousel – Beautiful, customizable sliders
 
-git clone https://github.com/your-username/your-repo-name.git
-
 ✨ Future Improvements
 🛒 Add e-commerce integration (cart & checkout)
 🎥 Include video backgrounds for hero sections
