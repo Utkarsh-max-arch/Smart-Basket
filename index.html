@@ -3,9 +3,874 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery Store</title>
+    <!-- Bootstrap css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">\
+     <!-- For icons  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <!-- custom css -->
+       <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>as per the system we have to take part</h1>
+<!-- all links set up now we will start -->
+ <main>
+    <div class="top-header">
+        <div class="container">
+            <div class="top-content">
+                <div class="top-flex">
+                    <li>
+                        <a href="a"><i class="fa-solid fa-envelope"></i>smartbasket.shop@gmail.com</a>
+                         <a href="a"><i class="fa-solid fa-phone"></i>9877468842</a>
+                    </li>
+                </div>
+                <div class="top-social">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header-main" style="margin-left: 15px;">
+        <div class="container">
+           
+                <div class="logo"><img src="Grocery/images/logo.png" alt="Grocery Store logo featuring fresh produce arranged in a basket with the words Grocery Store displayed in bold green letters, conveying a welcoming and vibrant atmosphere" /></div>
+                <div class="head-search">
+                    <form action="">
+                        <input type="search" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div class="header-icons">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+       <div class="container text-center">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Arrivals</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Offer</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+       </div>
+    </nav>
+     
+    <!-- let create a new banner -->
+     <section class="banner-sec" style="background-image: url('Grocery/images/header-bg.png');">
+        <div class="conatiner">
+            <div class="header-main-text" style="margin-left: 15px;">
+                <h5>Exclusive Offer 20% off</h5>
+                <h1>A Different Kind of Grocery Store</h1>
+                <p>🛒 Grocery Store is a one-stop retail destination offering a diverse range of essentials — from 🥦 fresh farm produce, 🥛 dairy, and 🍞 bakery delights to packaged foods, refreshing beverages, and everyday household supplies. Designed for convenience and accessibility, it ensures customers can find everything they need under one roof. Modern grocery stores focus on 🌱 quality, 🏷️ affordability, and a seamless shopping experience, making daily life simpler and more efficient.</p>
+                <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+            </div>
+        </div>
+     </section>
+
+     <!-- let make category -->
+
+     <section class="items-header-sec py-5">
+        <div class="container">
+            <div class="item-slider text-center">
+
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-1.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-2.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-3.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-4.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-5.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-6.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-7.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+                <div class="items-header">
+                <img src="Grocery/images/icon-food-8.png" alt="">
+                <h4>Vegetables</h4>
+            </div>
+            
+
+
+
+
+
+</div>
+            
+        </div>
+     </section>
+
+     <!-- let make product section -->
+      <section class="product-sec pb-5">
+        <div class="container">
+            <h2 class="title text-center">Top Sell Products</h2>
+
+            <div class="product-slider mt-5">
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img">
+                            <img src="Grocery/images/product-img.png" alt="">
+                        </div>
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Cucumber</h5>
+                            <span class="price"> $18</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                  
+
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img">
+                            <img src="Grocery/images/product-img-1.png" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Potato</h5>
+                            <span class="price"> $12</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-3">
+                    
+
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img">
+                            <img src="Grocery/images/product-img-2.png" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Spinach</h5>
+                            <span class="price"> $15</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img ">
+                            <img src="Grocery/images/product-img-3.png" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Milk</h5>
+                            <span class="price"> $19</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+      </section>
+
+      <!-- change the text as per choices -->
+
+      <!--let make another section  -->
+      <section class="product-item-sec">
+        <div class="container">
+          <h2 class="title text-center">Fresh Offers</h2>
+          <div class="row mt-5 align-itmes-center">
+            <div class="col-lg-4">
+              <div class="product-timer">
+                <img src="Grocery/images/back-img-2.png" alt="">
+                <div class="product-time">
+                  <div class="pr-time-text">
+                    <h4 class="text-white">Deals of the week</h4>
+                  </div>
+                  <div class="timer-flex">
+                    <ul>
+                      <li>
+                        25
+                        <span>Days</span>
+                      </li>
+                       <li>
+                        16
+                        <span>HRS</span>
+                      </li>
+                       <li>
+                        20
+                        <span>MIN</span>
+                      </li>
+                       <li>
+                        12
+                        <span>SEC</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <p class="text-white mt-2"></p>
+
+
+
+
+                </div>
+
+
+
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <!-- first add row -->
+                <div class="row">
+                   <div class="col-md-4">
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img ">
+                            <img src="Grocery/images/meat-2.jpg" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Kiwi</h5>
+                            <span class="price"> $10</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="product-box">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img ">
+                            <img src="Grocery/images/meat-4.jpg" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Tomato</h5>
+                            <span class="price"> $24</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 ">
+                    <div class="product-box ">
+                        <div class="pr-icons">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pr-img">
+                            <img src="c:\Users\91821\OneDrive\Pictures\Screenshots\Screenshot 2025-08-23 233426.png" alt="">
+                        </div>
+
+                        <div class="pr-text">
+                            <h6>In Stock</h6>
+                            <h5>Onion</h5>
+                            <span class="price"> $12</span>
+                            <div class="cart-btn"><a href="">Add to cart <i class="fa-solid fa-cart-shopping"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           </div>
+           </div>
+                </div>
+           </div>
+           </div>
+           </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- let make weekend section -->
+
+     
+        <section class="weekend-sec py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="weekend-main" style="background: url(Grocery/images/weekend-3-back.jpg);">
+                            <div class="weekend-text">
+                                <h5>Weekend discount 40%</h5>
+                                <h3>Surprice Mix Bhuja and peas</h3>
+                                <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="weekend-main" style="background: url(Grocery/images/weekend-2-back.jpg);">
+                            <div class="weekend-text">
+                                <h5>Weekend discount 40%</h5>
+                                <h3>Peanuts Ruffs</h3>
+                                <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+      <!-- lets make a full products lists showing in 2 -rows -->
+        <!-- copy the above products and pasted here just changing the look n feel img text as per choices  -->
+
+       <section class="product-sec pb-5">
+            <div class="container">
+
+                <h2 class="title text-center">Today Arrivals Fresh </h2>
+
+                <!-- adding the timser here too  -->
+
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="product-timer">
+                            <img src="Grocery/images/item-time-2.jpg" alt="">
+
+                            <div class="product-time">
+                                <div class="pr-time-text">
+                                    <h4 class="text-white"> Deals of the Week</h4>
+                                </div>
+
+                                <div class="timer-flex">
+                                    <ul>
+                                        <li>
+                                            25
+                                            <span>DAYS</span>
+                                        </li>
+                                        <li>
+                                            16
+                                            <span>HRS</span>
+                                        </li>
+                                        <li>
+                                            20
+                                            <span>MIN</span>
+                                        </li>
+                                        <li>
+                                            12
+                                            <span>SEC</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="text-white mt-2"></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="product-slider-2  mt-5">
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/product-img-6.png" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Banana</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/product-img-5.png" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Colocasia</h5>
+                                        <span class="price">$29.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/product-img-4.png" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Taro Leaves</h5>
+                                        <span class="price">$39.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/product-img-3.png" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Milk</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/iten-1.jpg" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Lime</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/iten-2.jpg" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Onion</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/iten-3.jpg" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Broccli</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-box">
+
+                                    <div class="pr-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                                            <li><a href=""><i class="fa-solid fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="pr-img">
+                                        <img src="Grocery/images/iten-4.jpg" alt="">
+                                    </div>
+
+                                    <div class="pr-text">
+                                        <h6>In Stock</h6>
+                                        <h5>Capsicum</h5>
+                                        <span class="price">$22.00</span>
+                                        <div class="cart-btn"><a href="">Add to cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <!-- let make another sec -->
+         
+        <section class="featured-sec py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="featured-flex">
+                            <i class="fa-solid fa-box"></i>
+                            <p>Everyday Fresh Products</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="featured-flex">
+                            <i class="fa-solid fa-truck"></i>
+                            <p>Free Delivery</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="featured-flex">
+                            <i class="fa-solid fa-percent"></i>
+                            <p>Best Price Market</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="featured-flex">
+                            <i class="fa-solid fa-box"></i>
+                            <p>Safety Delivered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- let make bg section -->
+
+        
+        <section class="bg-sec mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <div class="bg-text">
+                            <h3>Eat Healthy , Look Young , Feels Good ! </h3>
+                            <p>True wellness begins with the food you put on your plate. Choosing fresh, natural, and wholesome ingredients not only fuels your body with energy but also nurtures your mind and spirit. A healthy diet rich in fruits, vegetables, grains, and proteins helps fight fatigue, boosts immunity, and keeps your skin glowing with youthful radiance🌟</p>
+                            <p>When you eat clean, your body feels lighter, your mind stays sharper, and your mood naturally lifts. Healthy eating isn’t about restrictions—it’s about enjoying nature’s goodness in its purest form. Every meal becomes a step toward a stronger body, a calmer mind, and a happier soul 💚</p>
+                            <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- let make blog section -->
+         
+        <section class="blog-sec py-5">
+            <div class="container">
+
+                <h2 class="title text-center">News & Articles</h2>
+
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="Grocery/images/blog-1.jpg" alt=""></div>
+                            <div class="blog-text">
+                                <h3>🐟 Fresh From the Waters to Your Plate</h3>
+                                <p>Fish is a rich source of high-quality protein, essential vitamins, and omega-3 fatty acids that support heart health, improve brain function, and reduce inflammation 🌿</p>
+                                <div class="blog-arrow">
+                                    <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="Grocery/images/blog-2.jpg" alt=""></div>
+                            <div class="blog-text">
+                                <h3>🥗 Nature’s Green Delight</h3>
+                                <p>Delicately crisp and refreshingly mild, spring onions bring a perfect balance of flavor and freshness to every dish. 🥗✨</p>
+                                <div class="blog-arrow">
+                                    <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="Grocery/images/blog-3.jpg" alt=""></div>
+                            <div class="blog-text">
+                                <h3>🎃 Golden Goodness of Nature</h3>
+                                <p>Bright, vibrant, and naturally rich in flavor, pumpkin is a wholesome vegetable packed with vitamins A, C, and E, along with essential antioxidants 🍲✨.</p>
+                                <div class="blog-arrow">
+                                    <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- let make footer -->
+           <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="footer-img">
+                            <img src="Grocery/images/footer.png" alt="">
+                            <p class="mt-2">🛒 Supermarket – A supermarket is a large self-service retail store that offers a wide variety of products under one roof, including groceries, fresh produce, dairy, bakery items, household essentials, and more.🌟</p>
+
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="footer-links ps-5">
+                            <h4>Useful Links</h4>
+
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>ABout</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Service</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Shop</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Products</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Categories</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Offers</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="footer-links">
+                            <h4>Customers</h4>
+
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Shippemnts</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Privacy</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Order</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Returen</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Policies</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Orders</a></li>
+                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Offers</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="footer-cont">
+                            <h4>Contact Us</h4>
+
+                            <div class="footer-flex">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <a href="">smartbasket.shop@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <a href="">9877468842</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <a href="">45 Orchard Lane, Riverside, CA 92501</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="copyrights">
+                <p class="m-0">Copyrights | Smart Basket: | 2025 .</p>
+            </div>
+
+        </footer>
+
+
+
+      </main>
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- For slider -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+     <script src="script.js"></script>
+  </body>
 </body>
 </html>
