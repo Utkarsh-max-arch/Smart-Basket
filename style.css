@@ -79,6 +79,10 @@ li{
     color: #37a847;
     border-radius: 100%;
     margin-right: 8px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 .top-flex li a{
 
