@@ -1,3 +1,4 @@
+// lets add slider for that 
 
 $('.item-slider').slick({
     dots: false,
