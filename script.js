@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 $('.item-slider').slick({
     dots: false,
@@ -105,7 +105,7 @@ $('.product-slider-2').slick({
         // instead of a settings object
     ]
 });
-=======
+
 $('.item-slider').slick({
     dots: false,
     infinite: true,
@@ -212,4 +212,3 @@ $('.product-slider-2').slick({
     ]
 });
 
->>>>>>> 0b4cf6a3f8a2010a7fdd536e4729a4e296020f32
